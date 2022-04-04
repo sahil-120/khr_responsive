@@ -1,0 +1,66 @@
+@media only screen and (max-width: 550px) {
+  .grid-col.flex {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .grid-col .item .video-item video, .grid-col .item .video-item img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .navigation {
+    display: none;
+  }
+  .grid-col .item {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .services ul li {
+    max-width: 100%;
+  }
+}
+
+@media all and (max-width: 479px) {
+  div.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .testimonials .testimonial-carousel .details {
+    max-width: 225px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .solutions-grid .items .item-content .inner h2 {
+    font-size: 22px;
+  }
+}
+
+@media all and (max-width: 479px) {
+  .solutions-grid .items {
+    width: 100%;
+    margin: 0;
+    margin: 0 0 30px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .solutions-grid .items {
+    width: calc((100% - 90px) / 3);
+  }
+}
+
+@media all and (max-width: 767px) {
+  .solutions-grid .items {
+    width: calc((100% - 60px) / 2);
+  }
+}
+/*# sourceMappingURL=resposive.css.map */
